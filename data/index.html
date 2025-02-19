@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ESP32 LED 컨트롤</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>ESP32 LED 제어</h2>
+
+    <div id="led-controls">
+        <div>
+            <h3>LED 1</h3>
+            <button onclick="toggleLED(1, 'on')">ON</button>
+            <button onclick="toggleLED(1, 'off')">OFF</button>
+            <br>
+            <label>스케줄 ON/OFF: <input type="checkbox" id="schedule1"></label>
+            <input type="time" id="onTime1">
+            <input type="time" id="offTime1">
+            <button onclick="setSchedule(1)">저장</button>
+        </div>
+        
+        <div>
+            <h3>LED 2</h3>
+            <button onclick="toggleLED(2, 'on')">ON</button>
+            <button onclick="toggleLED(2, 'off')">OFF</button>
+            <br>
+            <label>스케줄 ON/OFF: <input type="checkbox" id="schedule2"></label>
+            <input type="time" id="onTime2">
+            <input type="time" id="offTime2">
+            <button onclick="setSchedule(2)">저장</button>
+        </div>
+
+        <div>
+            <h3>LED 3</h3>
+            <button onclick="toggleLED(3, 'on')">ON</button>
+            <button onclick="toggleLED(3, 'off')">OFF</button>
+            <br>
+            <label>스케줄 ON/OFF: <input type="checkbox" id="schedule3"></label>
+            <input type="time" id="onTime3">
+            <input type="time" id="offTime3">
+            <button onclick="setSchedule(3)">저장</button>
+        </div>
+    </div>
+</body>
+</html>
