@@ -9,6 +9,11 @@ index.html로 접속하여 3개의 led의 스케쥴을 조정하거나 켜고 �
 <img width="502" alt="image" src="https://github.com/user-attachments/assets/08f3a5e7-ba10-4d11-9982-bec601e6fbff" />
 
 
+
+--------
+![회로도그림](https://github.com/user-attachments/assets/62eaf7f4-a23c-48dd-bfca-9602943d7fe0)
+
+
 -------
 사용한 라이브러리 및 프로그램
 
@@ -17,3 +22,5 @@ https://github.com/cotestatnt/async-esp-fs-webserver
 
 * littleFS 업로더 *
 https://github.com/earlephilhower/arduino-littlefs-upload
+
+
